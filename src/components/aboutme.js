@@ -13,7 +13,7 @@ class About extends Component {
                             <hr/>
 
                             <p>
-                            After gaining experience of working in an agile start-up company, I am really intrigued by opportunities of having a positive input in software projects. I am currently in my second year of university studying software engineering, where I code mostly in Java and C#, while also learning SQL, Python and have gained experience in project management and worked in multiple group projects.<br></br><br></br>
+                            After gaining experience of working in a start-up, at Nyriad, I am really intrigued by opportunities of having a positive input in software projects. I am currently in my second year of university studying software engineering, where I code mostly in Java and C#, while also learning SQL, Python and have gained experience in project management and worked in multiple group projects.<br></br><br></br>
 
                             In my previous software engineering job I worked in a Platform as a Service team, where I was responsible for transferring a mono-repository into a multi-repository for the micro-service architecture of the platform. Following that I was transferred to the Web Development team, where I worked on various bugs for the team, while also creating tests for the CI pipeline of the website.<br></br><br></br>
 

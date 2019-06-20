@@ -10,7 +10,7 @@ class Landing extends Component {
 
                     <Cell col={12}>
                             <img
-                            src="https://i.imgur.com/9dy7DTg.jpg"
+                            src="https://i.imgur.com/99DOEai.png"
                             alt="avatar"
                             className="avatar-img" 
                             />        
@@ -20,7 +20,7 @@ class Landing extends Component {
                             
                             <hr/>
 
-                            <p> Reach me on my socials below! </p>
+                            <p> Reach me through any of my socials below! </p>
                             
                             <div className="social-links">
                                 {/* LinkedIn */}
@@ -29,22 +29,22 @@ class Landing extends Component {
                                 </a>
 
                                 {/* GitHub */}
-                                <a href="http://google.com" rel="noopener nonreferrer" target="_blank">
+                                <a href="https://github.com/yaserazfar" rel="noopener nonreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
                                 
                                 {/* Twitter */}
-                                <a href="http://google.com" rel="noopener nonreferrer" target="_blank">
+                                <a href="https://twitter.com/YaserAzfar" rel="noopener nonreferrer" target="_blank">
                                     <i className="fa fa-twitter-square" aria-hidden="true" />
                                 </a>
 
                                 {/* Facebook */}
-                                <a href="http://google.com" rel="noopener nonreferrer" target="_blank">
+                                <a href="https://www.facebook.com/YaserAzfar" rel="noopener nonreferrer" target="_blank">
                                     <i className="fa fa-facebook-square" aria-hidden="true" />
                                 </a>
 
                                 {/* Instagram */}
-                                <a href="http://google.com" rel="noopener nonreferrer" target="_blank">
+                                <a href="https://www.instagram.com/therealyaser/" rel="noopener nonreferrer" target="_blank">
                                     <i className="fa fa-instagram" aria-hidden="true" />
                                 </a>
 

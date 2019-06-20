@@ -17,11 +17,12 @@ class Project extends Component {
                             React Portfolio Website
                         </CardTitle>
                         <CardText>
-                            To learn more about react and web development, I decided to create a portfolio website for myself. 
+                            To learn more about React and Web Development, I decided to create a portfolio website for myself. This website consits of 4 pages, and includes components from React-MDL and Bootstrap.
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>More</Button>
+                            <a href="https://github.com/yaserazfar/website" rel="noopener nonreferrer" target="_blank">
+                                <Button colored>GitHub</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share"></IconButton>
@@ -33,12 +34,13 @@ class Project extends Component {
                             C++ Cuda Conway's Game of Life
                         </CardTitle>
                         <CardText>
-                            As part of my internship at Nyriad, I was given the task to create Conway's Game of Life in Cuda. This included learning parts of parallel programming, and a broad overview
+                           To learn about C++ and Cuda I created Conway's Game of Life in Cuda. This process started off with first creating the game in C++ and then translating it to Cuda to have parallel threads to run the game.
                         </CardText>
-                        <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>More</Button>
-                        </CardActions>
+                        {/* <CardActions border>
+                            <a href="https://github.com/yaserazfar" rel="noopener nonreferrer" target="_blank">
+                                <Button colored>GitHub</Button>
+                            </a>
+                        </CardActions> */}
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share"></IconButton>
                         </CardMenu>
@@ -52,8 +54,9 @@ class Project extends Component {
                             To apply my knowledge of the dynamic data structure, linked lists, I was assigned to create a program which encoded a text file using a linked list of the words. Then a program which decoded the encoded text document. 
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>More</Button>
+                             <a href="https://github.com/yaserazfar/linkedListEncoder" rel="noopener nonreferrer" target="_blank">
+                                <Button colored>GitHub</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share"></IconButton>
@@ -76,8 +79,9 @@ class Project extends Component {
                         As a University project we were assigned to create a secure USB, which combats the problem of leaving a USB in public places. We created SecuredUSB, which includes a C# application which goes on the USB an and Andriod Phone application. For this project I was incharge of creating the C# USB application in charge of encrpting and decrypting the files and also communication with the mobile.
                     </CardText>
                     <CardActions border>
-                        <Button colored>GitHub</Button>
-                        <Button colored>More</Button>
+                        <a href="https://github.com/yaserazfar/SecuredUSB" rel="noopener nonreferrer" target="_blank">
+                                <Button colored>GitHub</Button>
+                        </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name="share"></IconButton>
@@ -100,6 +104,14 @@ class Project extends Component {
                         <Cell col={12}>
                             <div className="content">
                                 {this.toggleCategories()}
+                            </div>
+                        </Cell>
+                        <Cell col={12}>
+                            
+                            <div className="more-projects">
+                                <h1>
+                                    More projects coming soon...
+                                </h1>
                             </div>
                         </Cell>
                     </Grid>
