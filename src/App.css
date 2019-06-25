@@ -1,12 +1,12 @@
 .header-color{
-    background: #076585;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #076585 ,rgb(0, 0, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+   background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid{
-    background: rgb(243, 205, 205);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: grey;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  Chrome 10-25, Safari 5.1-6 */
    /* background: linear-gradient(to right, #D6A4A4, #DAE2F8);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
     position: fixed;
@@ -17,40 +17,38 @@
 }
 
 .avatar-img {
-    height: 350px;
+    height: 380px;
     padding-top: 5em;
     border-radius: 30px;
 }
 
 .banner-text {
     background-color: black;
-    opacity: .6;
+    opacity: .75;
     width: 70%;
     margin: auto;
     border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
 } 
 
 .banner-text2 {
-    background-color: black;
-    opacity: .6;
     width: 70%;
     margin: auto;
     border-radius: 10px;
-    padding-top: 5em;
     padding-bottom: 1em;
 } 
 
 .banner-text2 h1 {
     font-size: 66px;
     font-weight: bold;
-    color: whitesmoke;
+    color: rgb(212, 226, 134);
 }
 
 
 .banner-text h1 {
     font-size: 66px;
     font-weight: bold;
-    color: whitesmoke;
+    color: rgb(212, 226, 134);
 }
 
 .banner-text h2 {
@@ -66,7 +64,7 @@
 }
 
 .banner-text2 hr {
-    border-top: 5px dotted white;
+    border-top: 5px dotted black;
     width: 50%;
     margin: auto;
 }
@@ -79,9 +77,18 @@
 
 
 .banner-text2 p {
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
     font-size: 20px;
     padding: 1em;
+}
+
+.banner-text2 h6 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 20px;
+    padding: 1em;
+    padding-top: 5%;
 }
 
 
@@ -101,6 +108,7 @@
 
 .projects-grid {
     display: flex;
+
 }
 
 .form-page {
@@ -117,9 +125,7 @@
 }
 
 .form-background {
-    background: rgb(243, 205, 205);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
-   /* background: linear-gradient(to right, #D6A4A4, #DAE2F8);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: grey; /* fallback for old browsers */
     position: fixed;
     left: 0;
     width: 100%;
@@ -127,12 +133,23 @@
 }
 
 .more-projects {
-    padding-top: 8%;
+    padding-top: 10%;
     text-align: center;
 }
 
-.more-projects h1 {
+.form-background h2 {
     font-size: 30px;
     font-weight: bold;
     color: black;
+}
+
+.form-label {
+    color: black;
+}
+
+.projects-background {
+    background:grey; /* fallback for old browsers */
+
+    width: 100%;
+    height: 100%;
 }

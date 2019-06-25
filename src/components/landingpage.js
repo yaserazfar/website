@@ -20,7 +20,7 @@ class Landing extends Component {
                             
                             <hr/>
 
-                            <p> Reach me through any of my socials below! </p>
+                            <p> REACH ME THROUGH ANY OF MY SOCIALS BELOW! </p>
                             
                             <div className="social-links">
                                 {/* LinkedIn */}

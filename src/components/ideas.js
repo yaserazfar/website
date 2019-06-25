@@ -29,11 +29,12 @@ class Contact extends Component {
             <div className="form-background">
 
                 <Form className="form-page">
-
-                <h2>Give me reccomendations on what to learn or give feedback for this website! </h2> 
+                
+                <h2>Give me recommendations on what to learn or give feedback for this website! </h2> 
+                <br></br>
 
                         <FormGroup controlId="formBasicName">
-                            <FormLabel>Name: </FormLabel>
+                            <FormLabel className="form-label">Name: </FormLabel>
                             <FormControl type="name" placeholder="Enter full name" />
                         </FormGroup>
 

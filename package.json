@@ -1,5 +1,6 @@
 {
   "name": "my_website",
+  "homepage": "http://www.yaserazfar.com/build/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

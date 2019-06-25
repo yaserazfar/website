@@ -20,7 +20,7 @@ class About extends Component {
                             Overall, I am looking to explore and go deeper into the many fields of software development to increase my knowledge to be able to have an impact in the world.
                             </p>
 
-                            <p> Java | C# | Python | C++ | React | JavaScript | SQL | Git | Jenkins </p>
+                            <h6> Java | C# | Python | C++ | React | JavaScript | SQL | Git | Jenkins </h6>
                         </div>
                     </Cell>
                 </Grid>
