@@ -43,10 +43,16 @@ class Landing extends Component {
                                     <i className="fa fa-facebook-square" aria-hidden="true" />
                                 </a>
 
-                                {/* Instagram */}
-                                <a href="https://www.instagram.com/therealyaser/" rel="noopener nonreferrer" target="_blank">
+                                {/* Instagram 
+                                Took it out because not very professional? */}
+                                {/* <a href="https://www.instagram.com/therealyaser/" rel="noopener nonreferrer" target="_blank">
                                     <i className="fa fa-instagram" aria-hidden="true" />
-                                </a>
+                                </a> */}
+
+                                {/* Email */}
+                                <a href="mailto:yaserazfar@gmail.com" rel="noopener nonreferrer" target="_blank">
+                                    <i className="fa fa-envelope" aria-hidden="true" />
+                                </a>                             
 
                             </div>
                          </div>

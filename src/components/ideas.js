@@ -1,69 +1,77 @@
 import React, { Component } from 'react';
-import { Form, FormControl, FormGroup, FormLabel, Button} from 'react-bootstrap';
+import { Grid, Cell } from 'react-mdl';
+// import { Form, FormControl, FormGroup, FormLabel, Button} from 'react-bootstrap';
 
 class Contact extends Component {
-    constructor(){
-        super();
-        this.handleSubmit = this.handleSubmit.bind(this);
-    }
+    // constructor(){
+    //     super();
+    //     this.handleSubmit = this.handleSubmit.bind(this);
+    // }
 
-    handleSubmit(event) {
-        event.preventDefault();
-        const data = new FormData(event.target);
+    // handleSubmit(event) {
+    //     event.preventDefault();
+    //     const data = new FormData(event.target);
 
-        //const name = data.get(name);
-        // const email = data.get(email);
-        // const text = data.get(text);
+    //     //const name = data.get(name);
+    //     // const email = data.get(email);
+    //     // const text = data.get(text);
 
-        // data.set(name, email, text);
+    //     // data.set(name, email, text);
         
-        fetch('/api/form-submit-url', {
-          method: 'POST',
-          body: data,
-        });
-      }
+    //     fetch('/api/form-submit-url', {
+    //       method: 'POST',
+    //       body: data,
+    //     });
+    //   }
 
     render() {
         return(
+            <div style={{width: '100%', margin: 'auto'}}>
+                <Grid className="landing-grid">
+                <Cell col={12}>
+                    <div className="ideas-styling">
+                            <h1>Under Construction</h1>
+                            <div className="banner-text">
+                                <p>
+                                    1) Add Landing page, About Me page and Projects page <span>&#10003;</span> <br /> <br /> 
 
-            <div className="form-background">
+                                    2) Add links to social media pages <span>&#10003;</span> <br /> <br />
 
-                <Form className="form-page">
-                
-                <h2>Give me recommendations on what to learn or give feedback for this website! </h2> 
-                <br></br>
+                                    3) Add projects and project links from github <span>&#10003;</span> <br /> <br />
+                                    
+                                    4) Improve user interface and design <span>&#10003;</span> <br /> <br />
 
-                        <FormGroup controlId="formBasicName">
-                            <FormLabel className="form-label">Name: </FormLabel>
-                            <FormControl type="name" placeholder="Enter full name" />
-                        </FormGroup>
+                                    5) Create an Ideas page to show progress on website <span>&#10003;</span> <br /> <br />
 
-                        <FormGroup controlId="formBasicEmail">
-                            <FormLabel>Email address: </FormLabel>
-                            <FormControl type="email" required placeholder="Enter email" />
-                        </FormGroup>
+                                    6) Start hosting website <span>&#10003;</span> <br /> <br />
 
-                        <FormGroup controlId="formControlSelect">
-                            <FormLabel> Category: </FormLabel>
-                            <FormControl as="select">
-                                <option>Software</option>
-                                <option>Book</option>
-                                <option>Person</option>
-                                <option>Other</option>
-                                <option>Feedback</option>
-                            </FormControl>
-                        </FormGroup>
+                                    <strong >To do: <br /> <br /></strong>
 
-                        <FormGroup controlId="formControlTextArea">
-                            <FormLabel>Recommendation / Feedback: </FormLabel>
-                            <FormControl type="text" as="textarea" required rows="3"/>
-                        </FormGroup>
+                                    7) Create a blog/article section <br /> <br />
 
-                        <Button variant="primary" type="submit"> Submit </Button>
+                                    8) Create a form for recommendations <br /> <br />
+                                    
+                                    9) Get a summer internship <br /> <br />
 
-                    </Form>
+                                    10) Do more projects <br /> <br />
+
+                                    11) Make the world better <br /> <br />
+
+                                </p>
+
+
+                        </div>
+
+                        <h6> Email me any recommendations or ideas for the website 
+                        </h6>
+                        <a href="mailto:yaserazfar@gmail.com" rel="noopener nonreferrer" target="_blank"> 
+                                    <i className="fa fa-envelope" aria-hidden="true" />
+                                </a> 
+                    </div>
+
+                </Cell>
+                </Grid>
             </div>
-
         )
     }
 }

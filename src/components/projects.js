@@ -29,23 +29,6 @@ class Project extends Component {
                             </Card>
 
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/QrJtEoN.png) center / cover'}}>
-                                    C++ Cuda Conway's Game of Life
-                                </CardTitle>
-                                <CardText>
-                                To learn about C++ and Cuda I created Conway's Game of Life in Cuda. This process started off with first creating the game in C++ and then translating it to Cuda to have parallel threads to run the game.
-                                </CardText>
-                                {/* <CardActions border>
-                                    <a href="https://github.com/yaserazfar" rel="noopener nonreferrer" target="_blank">
-                                        <Button colored>GitHub</Button>
-                                    </a>
-                                </CardActions> */}
-                                <CardMenu style={{color: '#fff'}}>
-                                    <IconButton name="share"></IconButton>
-                                </CardMenu>
-                            </Card>
-
-                            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/HntnQsF.png) center / cover'}}>
                                     Java Word-Based Move-to-Front encoder 
                                 </CardTitle>
@@ -61,6 +44,41 @@ class Project extends Component {
                                     <IconButton name="share"></IconButton>
                                 </CardMenu>
                             </Card>
+
+                            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/QrJtEoN.png) center / cover'}}>
+                                    C++ Cuda Conway's Game of Life
+                                </CardTitle>
+                                <CardText>
+                                To learn about C++ and Cuda I created Conway's Game of Life in Cuda. This process started off with first creating the game in C++ and then translating it to Cuda to have parallel threads to run the game.
+                                </CardText>
+                                <CardActions border>
+                                    <a href="mailto:yaserazfar@gmail.com" rel="noopener nonreferrer" target="_blank">
+                                        <Button colored>Available on request</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share"></IconButton>
+                                </CardMenu>
+                            </Card>
+
+                            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/Qd5P2Mw.png) center / cover'}}>
+                                    C# login and logging with SQL
+                                </CardTitle>
+                                <CardText>
+                                    As a University project for a SQL paper, I created a login application where an 'administrator' could login and log information into the SQL database. From this I learnt how to use a database in an application and it's wider uses.
+                                </CardText>
+                                <CardActions border>
+                                     <a href="mailto:yaserazfar@gmail.com" rel="noopener nonreferrer" target="_blank">
+                                        <Button colored>Available on request</Button>
+                                    </a>
+                                </CardActions>
+                                <CardMenu style={{color: '#fff'}}>
+                                    <IconButton name="share"></IconButton>
+                                </CardMenu>
+                            </Card>
+
                         </div>
 
               
