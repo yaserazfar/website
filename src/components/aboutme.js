@@ -19,7 +19,7 @@ class About extends Component {
                                 </p>
 
                             </div>
-                                <h6> Java | C# | Python | C++ | React | JavaScript | SQL | Git | Jenkins </h6>
+                                <h6> Java | C# | Python | C++ | React | JavaScript | HTML | CSS | SQL | Git | Jenkins </h6>
                         </div>
                     </Cell>
                 </Grid>

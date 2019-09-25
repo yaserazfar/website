@@ -9,18 +9,23 @@ class Landing extends Component {
                 <Grid className="landing-grid">
 
                     <Cell col={12}>
-                            <img
+                            {/* <img
                             src="https://i.imgur.com/99DOEai.png"
                             alt="avatar"
                             className="avatar-img" 
-                            />        
+                            />         */}
+                            
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            
                          <div className="banner-text">
                             <h1>Yaser Azfar</h1>
                             <h2>Software Engineering Student</h2>
                             
                             <hr/>
 
-                            <p> REACH ME THROUGH ANY OF MY SOCIALS BELOW! </p>
+                            <p> "The first step is to establish that something is possible; then probability will occur." - Elon Musk </p>
                             
                             <div className="social-links">
                                 {/* LinkedIn */}
