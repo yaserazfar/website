@@ -9,12 +9,7 @@ class Landing extends Component {
                 <Grid className="landing-grid">
 
                     <Cell col={12}>
-                            {/* <img
-                            src="https://i.imgur.com/99DOEai.png"
-                            alt="avatar"
-                            className="avatar-img" 
-                            />         */}
-                            
+                        
                             <br></br>
                             <br></br>
                             <br></br>
@@ -42,17 +37,6 @@ class Landing extends Component {
                                 <a href="https://twitter.com/YaserAzfar" rel="noopener nonreferrer" target="_blank">
                                     <i className="fa fa-twitter-square" aria-hidden="true" />
                                 </a>
-
-                                {/* Facebook */}
-                                <a href="https://www.facebook.com/YaserAzfar" rel="noopener nonreferrer" target="_blank">
-                                    <i className="fa fa-facebook-square" aria-hidden="true" />
-                                </a>
-
-                                {/* Instagram 
-                                Took it out because not very professional? */}
-                                {/* <a href="https://www.instagram.com/therealyaser/" rel="noopener nonreferrer" target="_blank">
-                                    <i className="fa fa-instagram" aria-hidden="true" />
-                                </a> */}
 
                                 {/* Email */}
                                 <a href="mailto:yaserazfar@gmail.com" rel="noopener nonreferrer" target="_blank">
