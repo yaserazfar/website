@@ -4,7 +4,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 
 class Contact extends Component {
     render() {
-        const progress = 60;
+        const progress = 66;
 
         return(
             <div style={{width: '100%', margin: 'auto'}}>
@@ -16,7 +16,7 @@ class Contact extends Component {
                             <div className="banner-text">
                             
                             <ProgressBar animated now={progress} label={`${progress}%`}></ProgressBar>
-                            
+
                                 <h5>
                                 <br/>
                                     1) Make a portfolio website 

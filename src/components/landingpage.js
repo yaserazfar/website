@@ -7,7 +7,7 @@ class Landing extends Component {
     render() {
         const values = ["Software Engineer", "Third Year Engineering Student"]
 
-        const Example = () => {
+        const CrypticText = () => {
             const { result, dencrypt } = useDencrypt();
           
             React.useEffect(() => {
@@ -17,7 +17,7 @@ class Landing extends Component {
                 dencrypt(values[i]);
           
                 i = i === values.length - 1 ? 0 : i + 1;
-              }, 3100);
+              }, 3200);
           
               return () => clearInterval(action);
             }, []);
@@ -39,9 +39,8 @@ class Landing extends Component {
                             
                          <div className="banner-text">
                             <h1>Yaser Azfar</h1>
-                            {/* <h2>Software Engineering Student</h2> */}
-                           
-                            <Example />
+                            {/* <h2>Software Engineering Student</h2> */}     
+                            <CrypticText />
                             
                             <hr/>
 
