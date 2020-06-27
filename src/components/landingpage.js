@@ -1,9 +1,32 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl'
+import { Grid, Cell } from 'react-mdl';
+import { useDencrypt } from "use-dencrypt-effect";
 
 
 class Landing extends Component {
     render() {
+        const values = ["Software Engineer", "Third Year Engineering Student"]
+
+        const Example = () => {
+            const { result, dencrypt } = useDencrypt();
+          
+            React.useEffect(() => {
+              let i = 0;
+          
+              const action = setInterval(() => {
+                dencrypt(values[i]);
+          
+                i = i === values.length - 1 ? 0 : i + 1;
+              }, 3100);
+          
+              return () => clearInterval(action);
+            }, []);
+          
+            return <h2>{result}</h2>;
+          };
+          
+          
+
         return( 
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
@@ -16,7 +39,9 @@ class Landing extends Component {
                             
                          <div className="banner-text">
                             <h1>Yaser Azfar</h1>
-                            <h2>Software Engineering Student</h2>
+                            {/* <h2>Software Engineering Student</h2> */}
+                           
+                            <Example />
                             
                             <hr/>
 

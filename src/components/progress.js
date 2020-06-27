@@ -1,29 +1,35 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 class Contact extends Component {
     render() {
+        const progress = 60;
+
         return(
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                 <Cell col={12}>
                     <div className="ideas-styling">
-                            <h1>-P-R-O-G-R-E-S-S-</h1>
+                            <h1>PROGRESS</h1>
                             {/* <h1>• P • R • O • G • R • E • S • S •</h1> */}
                             <div className="banner-text">
+                            
+                            <ProgressBar animated now={progress} label={`${progress}%`}></ProgressBar>
+                            
                                 <h5>
                                 <br/>
                                     1) Make a portfolio website 
                                 </h5>
                                 <h5>
-                                    2) Landing, About, Work and Ideas pages  
+                                    2) Landing, About, Work and Progress pages  
                                 </h5>   
-                                <h6>
-                                    3) Add percentage bar on Ideas page
-                                </h6>  
-                                <h6>
+                                <h5>
+                                    3) Add percentage bar on Progress page
+                                </h5>  
+                                <h5>
                                     4) Add description on About page
-                                </h6>
+                                </h5>
                                 <h6>
                                     5) Update projects list, add all Uni projects
                                 </h6>
