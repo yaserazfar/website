@@ -33,18 +33,21 @@ class Contact extends Component {
                                 <h6>
                                     5) Update projects list, add all Uni projects
                                 </h6>
-                                <h6>
+                                <h5>
                                     6) Make me hold something in the background image
+                                </h5>
+                                <h6>
+                                    7) Make a contact me page
                                 </h6>
  
                                 <br/>
                         </div>
 
-                        <h6> Email me any recommendations or ideas for the website 
+                        {/* <h6> Email me any recommendations or ideas for the website 
                         </h6>
                         <a href="mailto:yaserazfar@gmail.com" rel="noopener nonreferrer" target="_blank"> 
                                     <i className="fa fa-envelope" aria-hidden="true" />
-                                </a> 
+                                </a>  */}
                     </div>
 
                 </Cell>
