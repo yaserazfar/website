@@ -4,7 +4,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 
 class Contact extends Component {
     render() {
-        const progress = 66;
+        const progress = 71;
 
         return(
             <div style={{width: '100%', margin: 'auto'}}>

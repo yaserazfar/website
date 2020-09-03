@@ -12,7 +12,7 @@ class About extends Component {
                             <div className="banner-text">
                                 <p>
                             
-                        Third year Software Engineering student at the  <a href="https://www.waikato.ac.nz/study/subjects/software-engineering" target="_blank"> University of Waikato </a>. 
+                        Third year Software Engineering student and engineering tutor (Engineering and Society [ENGEN170], Engineering and Business [ENGEN270]) at the  <a href="https://www.waikato.ac.nz/study/subjects/software-engineering" target="_blank"> University of Waikato </a>. 
                         </p>
                         <p>
                         Over the past two years I have had the opportunity to complete two software engineering internships; 

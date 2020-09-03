@@ -104,6 +104,23 @@ class Project extends Component {
                         <IconButton name="share"></IconButton>
                     </CardMenu>
                 </Card>
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: 'black', height: '176px', background: 'url(https://avatars0.githubusercontent.com/u/57416440?s=200&v=4) center / cover'}}>
+                        Browser-Based Deep Learning Dataset Annotator
+                    </CardTitle>
+                    <CardText>
+                        Developing a front-end for a deep learning image annotator backend for the University of Waikato's User Friendly Deep Learning project. Gathered requirements, created formal documents such as SRS, SDS and a Test Plan then developed the front-end using React.
+                    </CardText>
+                    <CardActions border>
+                        <a href="https://github.com/michaeliwaikato/ufdl-frontend" rel="noopener nonreferrer" target="_blank">
+                                <Button colored>GitHub</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                        <IconButton name="share"></IconButton>
+                    </CardMenu>
+                </Card>
             </div>
             )
         }
@@ -128,9 +145,6 @@ class Project extends Component {
                             <Cell col={12}>
                                 
                                 <div className="more-projects">
-                                    <h1>
-                                        More projects coming soon...
-                                    </h1>
                                 </div>
                             </Cell>
                         </Grid>
