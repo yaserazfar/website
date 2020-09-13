@@ -9,43 +9,30 @@ class Landing extends Component {
 
         const CrypticText = () => {
             const { result, dencrypt } = useDencrypt();
-          
             React.useEffect(() => {
-              let i = 0;
-          
+              let i = 0;     
               const action = setInterval(() => {
                 dencrypt(values[i]);
-          
                 i = i === values.length - 1 ? 0 : i + 1;
               }, 3200);
-          
               return () => clearInterval(action);
             }, []);
-          
             return <h2>{result}</h2>;
-          };
-          
-          
+        };
+        
 
         return( 
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
-
-                    <Cell col={12}>
-                        
+                    <Cell col={12}>       
                             <br></br>
                             <br></br>
                             <br></br>
-                            
                          <div className="banner-text">
                             <h1>Yaser Azfar</h1>
-
-                            {/* <h2>Software Engineering Student</h2> */}  
-                               
-                            <CrypticText />
-                            
+                            {/* <h2>Software Engineering Student</h2> */}                            
+                            <CrypticText />                       
                             <hr/>
-
                             <p> "The first step is to establish that something is possible; then probability will occur." - Elon Musk </p>
                             
                             <div className="social-links">
@@ -73,7 +60,6 @@ class Landing extends Component {
                          </div>
                     </Cell>
                 </Grid>
-
             </div>
         )
     }
