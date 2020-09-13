@@ -13,7 +13,7 @@ class Project extends Component {
                         <div className="projects-grid">       
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
-                                    React Portfolio Website
+                                    React JS: Portfolio Website
                                 </CardTitle>
                                 <CardText>
                                     To learn more about React and Web Development, I decided to create a portfolio website for myself. This website consits of 4 pages, and includes components from React-MDL and Bootstrap.
@@ -30,7 +30,7 @@ class Project extends Component {
 
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/HntnQsF.png) center / cover'}}>
-                                    Java Word-Based Move-to-Front encoder 
+                                    Java: Word-Based Move-to-Front encoder 
                                 </CardTitle>
                                 <CardText>
                                     To apply my knowledge of the dynamic data structure, linked lists, I was assigned to create a program which encoded a text file using a linked list of the words. Then a program which decoded the encoded text document. 
@@ -47,10 +47,10 @@ class Project extends Component {
 
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/QrJtEoN.png) center / cover'}}>
-                                    C++ Cuda Conway's Game of Life
+                                    C++ Cuda: Conway's Game of Life
                                 </CardTitle>
                                 <CardText>
-                                To learn about C++ and Cuda I created Conway's Game of Life in Cuda. This process started off with first creating the game in C++ and then translating it to Cuda to have parallel threads to run the game.
+                                    To learn about C++ and Cuda I created Conway's Game of Life in Cuda. This process started off with first creating the game in C++ and then translating it to Cuda to have parallel threads to run the game.
                                 </CardText>
                                 <CardActions border>
                                     <a href="mailto:yaserazfar@gmail.com" rel="noopener nonreferrer" target="_blank">
@@ -64,7 +64,7 @@ class Project extends Component {
 
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/Qd5P2Mw.png) center / cover'}}>
-                                    C# login and logging with SQL
+                                    C#: login and logging with SQL
                                 </CardTitle>
                                 <CardText>
                                     As a University project for a SQL paper, I created a login application where an 'administrator' could login and log information into the SQL database. From this I learnt how to use a database in an application and it's wider uses.
@@ -80,9 +80,6 @@ class Project extends Component {
                             </Card>
 
                         </div>
-
-              
-
             )
         }
         else if(this.state.activeTab === 1){
@@ -90,7 +87,7 @@ class Project extends Component {
                 <div className="projects-grid">       
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.imgur.com/O1qRJ9n.png) center / cover'}}>
-                        C# Bluetooth Secure USB
+                        C#: Bluetooth Secure USB
                     </CardTitle>
                     <CardText>
                         As a University project we were assigned to create a secure USB, which combats the problem of leaving a USB in public places. We created SecuredUSB, which includes a C# application which goes on the USB an and Andriod Phone application. For this project I was incharge of creating the C# USB application in charge of encrpting and decrypting the files and also communication with the mobile.
@@ -107,7 +104,7 @@ class Project extends Component {
 
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: 'black', height: '176px', background: 'url(https://avatars0.githubusercontent.com/u/57416440?s=200&v=4) center / cover'}}>
-                        Browser-Based Deep Learning Dataset Annotator
+                        React JS: Browser-Based Deep Learning Dataset Annotator
                     </CardTitle>
                     <CardText>
                         Developing a front-end for a deep learning image annotator backend for the University of Waikato's User Friendly Deep Learning project. Gathered requirements, created formal documents such as SRS, SDS and a Test Plan then developed the front-end using React.
