@@ -5,7 +5,7 @@ import { useDencrypt } from "use-dencrypt-effect";
 
 class Landing extends Component {
     render() {
-        const values = ["Software Engineer", "Third Year Engineering Student"]
+        const values = ["Final Year Software Engineering Student"]
 
         const CrypticText = () => {
             const { result, dencrypt } = useDencrypt();
@@ -14,7 +14,7 @@ class Landing extends Component {
               const action = setInterval(() => {
                 dencrypt(values[i]);
                 i = i === values.length - 1 ? 0 : i + 1;
-              }, 3200);
+              }, 50);
               return () => clearInterval(action);
             }, []);
             return <h2>{result}</h2>;
