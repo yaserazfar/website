@@ -11,26 +11,27 @@ class About extends Component {
                                 <h1>ABOUT</h1>
                             <div className="banner-text">
                                 <p>
-                                    Final Year Software Engineering Student and Tutor for
+                                    Technical Graduate at Bankwest currently working in the Data and Analytics - Decision Support team. First Class
+                                    Honours Software Engineering Graduate from the
+                                    <a href="https://www.waikato.ac.nz/study/subjects/software-engineering" target="_blank"> University of Waikato</a>. 
+                                    <br/><br/>
+
+                                    At University I was a Tutor for
                                     <a href="https://papers.waikato.ac.nz/papers/2021/ENGEN170" target="_blank" > Engineering and Society </a> 
                                     and
                                     <a href="https://papers.waikato.ac.nz/papers/2021/ENGEN270" target="_blank"> Engineering and Business </a>
-                                    papers  
-                                    at the 
-                                    <a href="https://www.waikato.ac.nz/study/subjects/software-engineering" target="_blank"> University of Waikato </a>. 
+                                    papers.  
+
+                                    For my honours project I researched into capturing orchard data, processing and visualising it in the best manner for clients.
+                                    This lead to designing and developing a React Native mobile application to enable useful data visualisation for orchards. The project was done alongside with Zespri, Robotics Plus and Rocos.io 
 
                                     <br/><br/>
 
-                                    Currently researching into capturing orchard data then processing and visualising it in the best manner for clients.
-                                    Then designing and developing a tool to enable useful data visualisation for orchards. - Working with Zespri, Robotics Plus and Rocos.io 
-
-                                    <br/><br/>
-
-                                    Over the past three years I have had the opportunity to complete software engineering internships at these following companies: 
+                                    Over my collegiate years I  had the opportunity to complete software engineering internships at these following companies: 
                                     
                                     <li><a href="https://www.21e8.nz" target="_blank"> 21e8</a> - blockchain, networking, packet processing, taskflow, c++</li>
-                                    <li><a href="https://www.codelingo.io/" target="_blank"> CodeLingo </a> - SaaS: golang, backend, bug fixes</li>
-                                    <li><a href="https://www.nyriad.com/" target="_blank"> Nyriad </a> - PaaS team: c++, cuda, golang, microservice breakout | frontend team: react js, bash </li>
+                                    <li><a href="https://www.codelingo.io/" target="_blank"> CodeLingo </a> - golang, backend, bug fixes</li>
+                                    <li><a href="https://www.nyriad.com/" target="_blank"> Nyriad </a> - c++, cuda, golang, microservice breakout, react js, bash </li>
 
                                     <br></br>
 
@@ -40,7 +41,7 @@ class About extends Component {
                                     make a genuine difference in the world.
                                 </p>
                             </div>
-                                <h6> React | JavaScript | Golang | Java | C# | C++ | HTML | CSS | SQL | Git | Jenkins | Agile </h6>
+                                <h6> React | JavaScript | Java | C# | C++ | HTML | CSS | SQL | Git | Jenkins | Agile </h6>
                         </div>
                     </Cell>
                 </Grid>

@@ -5,7 +5,7 @@ import { useDencrypt } from "use-dencrypt-effect";
 
 class Landing extends Component {
     render() {
-        const values = ["Final Year Software Engineering Student"]
+        const values = ["Software Engineering at Bankwest"]
 
         const CrypticText = () => {
             const { result, dencrypt } = useDencrypt();
