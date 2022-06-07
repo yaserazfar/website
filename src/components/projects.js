@@ -10,7 +10,7 @@ class Project extends Component {
     toggleCategories(){
         if(this.state.activeTab === 0){
             return(
-                        <div className="projects-grid">       
+                        <div className="projects-grid">
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
                                     React JS: Portfolio Website
