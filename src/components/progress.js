@@ -12,7 +12,7 @@ class Progress extends Component {
                     <Cell col={12}>
                         <div className="ideas-styling">
                                 <h1>PROGRESS</h1>
-                                <div className="banner-text">
+                                <div className="banner-text" >
                                     <ProgressBar animated now={progress} label={`${progress}%`}></ProgressBar>
                                     <h5>
                                         <br/>
@@ -28,7 +28,7 @@ class Progress extends Component {
                                         4) Add description on About page
                                     </h5>
                                     <h6>
-                                        5) Update projects list, add all Uni projects
+                                        5) Update projects list
                                     </h6>
                                     <h5>
                                         6) Make me hold something in the background image
