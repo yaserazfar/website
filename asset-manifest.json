@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.c64572b1.css",
-  "main.css.map": "static/css/main.c64572b1.css.map",
-  "main.js": "static/js/main.63dfb2ba.js",
-  "main.js.map": "static/js/main.63dfb2ba.js.map",
+  "main.css": "static/css/main.c213d2ed.css",
+  "main.css.map": "static/css/main.c213d2ed.css.map",
+  "main.js": "static/js/main.c49498f5.js",
+  "main.js.map": "static/js/main.c49498f5.js.map",
   "static/media/cs-logo.png": "static/media/cs-logo.10f17b35.png",
   "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/media/glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
@@ -11,5 +11,7 @@
   "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
   "static/media/java-logo.png": "static/media/java-logo.5fee7724.png",
   "static/media/nvidia-logo.png": "static/media/nvidia-logo.cb3285ce.png",
-  "static/media/react-logo.png": "static/media/react-logo.68b835f8.png"
+  "static/media/react-logo.png": "static/media/react-logo.68b835f8.png",
+  "static/media/secureusb-logo.png": "static/media/secureusb-logo.7cc68bf5.png",
+  "static/media/ufdl-logo.png": "static/media/ufdl-logo.8e390f88.png"
 }
