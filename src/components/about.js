@@ -11,12 +11,15 @@ class About extends Component {
                                 <h1>ABOUT</h1>
                             <div className="banner-text">
                                 <p>
-                                    Technical Graduate at Bankwest currently working in the Data and Analytics - Decision Support team. First Class
-                                    Honours Software Engineering Graduate from the
-                                    <a href="https://www.waikato.ac.nz/study/subjects/software-engineering" target="_blank"> University of Waikato</a>. 
+                                    Technical Graduate at 
+                                    <a href="https://www.bankwest.com.au/" target="_blank"> Bankwest </a>
+                                    currently doing a rotation as a Software Engineer in Open Banking. 
+                                    Previously did a rotation as an Insight Analyst in Decision Support. 
+ 
                                     <br/><br/>
-
-                                    At University I was a Tutor for
+                                    First Class Honours Software Engineering Graduate from the
+                                    <a href="https://www.waikato.ac.nz/study/subjects/software-engineering" target="_blank"> University of Waikato</a>.
+                                    At University I was also a Tutor for
                                     <a href="https://papers.waikato.ac.nz/papers/2021/ENGEN170" target="_blank" > Engineering and Society </a> 
                                     and
                                     <a href="https://papers.waikato.ac.nz/papers/2021/ENGEN270" target="_blank"> Engineering and Business </a>

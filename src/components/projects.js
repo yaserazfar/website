@@ -4,6 +4,8 @@ import reactImage from '../../public/react-logo.png'
 import javaImage from '../../public/java-logo.png'
 import nvidiaLogo from '../../public/nvidia-logo.png'
 import csLogo from '../../public/cs-logo.png'
+import secureUSBLogo from '../../public/secureusb-logo.png'
+import ufdlLogo from '../../public/ufdl-logo.png'
 
 class Project extends Component {
     constructor(props) {
@@ -90,7 +92,7 @@ class Project extends Component {
             return(
                 <div className="projects-grid">       
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.imgur.com/O1qRJ9n.png) center / cover'}}>
+                    <CardTitle style={{color: 'black', height: '176px', background: `url(${secureUSBLogo}) center / cover`}}>
                         C#: Bluetooth Secure USB
                     </CardTitle>
                     <CardText>
@@ -107,7 +109,7 @@ class Project extends Component {
                 </Card>
 
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: 'black', height: '176px', background: 'url(https://avatars0.githubusercontent.com/u/57416440?s=200&v=4) center / cover'}}>
+                    <CardTitle style={{color: 'black', height: '176px', background: `url(${ufdlLogo}) center / cover`}}>
                         React JS: Browser-Based Deep Learning Dataset Annotator
                     </CardTitle>
                     <CardText>
@@ -129,8 +131,7 @@ class Project extends Component {
 
     render() {
         return(
-            <div className="projects-background" >
-
+            <div className="projects-background">
                 <div className="category-tabs">
                     <Tabs activeTab={this.state.activeTab} onChange={(tabID) => this.setState({ activeTab: tabID })}>
                         <Tab>Personal</Tab>
