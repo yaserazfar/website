@@ -12,8 +12,7 @@
 /*  Landing Page Section  */
 
 .landing-grid{
-    /* background-image: url("/src/assets/background.jpg");  */
-    background-image: url("https://i.imgur.com/BTGEa71.jpg");
+    background-image: url("/background.jpg");
     background-color: #284166;
     height: 100vh;
     background-position: center;
@@ -82,7 +81,6 @@
     padding-left: 4%;
 }
 
-
 /* Work Section */
 
 .projects-grid {
@@ -100,7 +98,7 @@
 
 .projects-background {
     font-family: 'Exo', sans-serif;
-    background-image: url("https://i.imgur.com/BTGEa71.jpg");
+    background-image: url("/background.jpg");
     background-color: #284166;
     height: 100vh;
     background-position: center;
@@ -113,7 +111,6 @@
     top: 0;
     left: 0;
 }
-
 
 /*  About Section */
 
@@ -160,4 +157,3 @@
     color: white;
     font-size: 20px;
 }
-

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { useDencrypt } from "use-dencrypt-effect";
 
-
 class Landing extends Component {
     render() {
         const values = ["Software Engineering at Bankwest"]

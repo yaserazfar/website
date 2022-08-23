@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText } from 'react-mdl';
+import reactImage from '../../public/react-logo.png'
+import javaImage from '../../public/java-logo.png'
+import nvidiaLogo from '../../public/nvidia-logo.png'
+import csLogo from '../../public/cs-logo.png'
 
 class Project extends Component {
     constructor(props) {
@@ -10,9 +14,9 @@ class Project extends Component {
     toggleCategories(){
         if(this.state.activeTab === 0){
             return(
-                        <div className="projects-grid">
+                        <div className="projects-grid" >
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '176px', background: `url(${reactImage}) center / cover`}}>
                                     React JS: Portfolio Website
                                 </CardTitle>
                                 <CardText>
@@ -29,7 +33,7 @@ class Project extends Component {
                             </Card>
 
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/HntnQsF.png) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '176px', background: `url(${javaImage}) center / cover`}}>
                                     Java: Word-Based Move-to-Front encoder 
                                 </CardTitle>
                                 <CardText>
@@ -46,7 +50,7 @@ class Project extends Component {
                             </Card>
 
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/QrJtEoN.png) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '176px', background: `url(${nvidiaLogo}) center / cover`}}>
                                     C++ Cuda: Conway's Game of Life
                                 </CardTitle>
                                 <CardText>
@@ -63,7 +67,7 @@ class Project extends Component {
                             </Card>
 
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.imgur.com/Qd5P2Mw.png) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '176px', background: `url(${csLogo}) center / cover`}}>
                                     C#: login and logging with SQL
                                 </CardTitle>
                                 <CardText>
@@ -125,7 +129,7 @@ class Project extends Component {
 
     render() {
         return(
-            <div className="projects-background">
+            <div className="projects-background" >
 
                 <div className="category-tabs">
                     <Tabs activeTab={this.state.activeTab} onChange={(tabID) => this.setState({ activeTab: tabID })}>
