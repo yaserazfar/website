@@ -44,7 +44,9 @@ class About extends Component {
                                     make a genuine difference in the world.
                                 </p>
                             </div>
-                                <h6> React | JavaScript | Java | C# | C++ | HTML | CSS | SQL | Git | Jenkins | Agile </h6>
+                            <div className="banner-text">
+                                <h6> React | JavaScript | SQL | Java | C#.NET | C++ | HTML | CSS | Git | Jenkins | Agile </h6>
+                            </div>
                         </div>
                     </Cell>
                 </Grid>
