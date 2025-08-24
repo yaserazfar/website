@@ -1,0 +1,99 @@
+/* Home page specific styles */
+.home-banner-text {
+  margin-top: 80px; /* Fixed distance from top, accounting for header */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: flex-start; /* Override parent's center alignment */
+  margin-top: 80px; /* Ensure it's at the top */
+}
+
+/* Override landing-grid centering for home page */
+.landing-grid .home-banner-text {
+  align-self: flex-start !important;
+  margin-top: 80px !important;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: 900;
+  color: #32CD32;
+  line-height: 1;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+}
+
+.banner-text h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #3CB371;
+  line-height: 1;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.social-links i {
+  color: white;
+  font-size: 66px;
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.social-links i:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 48px;
+  }
+  
+  .banner-text h2 {
+    font-size: 28px;
+  }
+  
+  .banner-text p {
+    font-size: 18px;
+  }
+  
+  .social-links i {
+    font-size: 3.5em;
+  }
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .home-banner-text {
+    margin-top: 60px !important; /* Slightly less margin on mobile */
+  }
+  
+  .landing-grid .home-banner-text {
+    margin-top: 60px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-banner-text {
+    margin-top: 50px !important; /* Even less margin on small mobile */
+  }
+  
+  .landing-grid .home-banner-text {
+    margin-top: 50px !important;
+  }
+}

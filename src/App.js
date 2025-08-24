@@ -1,37 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Header from './components/Header/Header';
 import Main from './components/main';
-import { Link } from 'react-router-dom';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="demo-big-content">
-        <Layout>
-            <Header transparent title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"> HOME  </Link>} scroll>
-                <Navigation>
-                    <Link to="/about">ABOUT</Link>
-                    <Link to="/projects">PROJECTS</Link>
-                    <Link to="/progress">PROGRESS</Link>
-                </Navigation>
-            </Header>
-            <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">HOME</Link>}>
-                <Navigation>
-                  <Link to="/about">ABOUT</Link>
-                  <Link to="/projects">PROJECTS</Link>
-                  <Link to="/progress">PROGRESS</Link>
-                </Navigation>
-            </Drawer>
-            <Content>
-                <div className="page-content" />
-                <Main/>
-            </Content>
-        </Layout>
-      </div>
-
-    );
-  }
+function App() {
+  return (
+    <>
+      <Header />
+      <Main />
+    </>
+  );
 }
 
 export default App;

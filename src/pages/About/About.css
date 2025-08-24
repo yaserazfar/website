@@ -1,0 +1,85 @@
+/* About page specific styles */
+.aboutMe-styling h1 {
+  font-family: 'Exo', sans-serif;
+  padding-top: 10px;
+  font-size: 66px;
+  font-weight: 900;
+  color: #32CD32;
+  background: transparent;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  margin-bottom: 20px;
+}
+
+.aboutMe-styling h6 {
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0;
+}
+
+.aboutMe-styling p {
+  text-align: justify;
+  color: white;
+}
+
+.aboutMe-styling a {
+  color: #32CD32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.aboutMe-styling a:hover {
+  text-decoration: underline;
+}
+
+.aboutMe-styling li {
+  color: white;
+  margin: 8px 0;
+}
+
+/* About page specific background - allows scrolling */
+.about-page-background {
+  background-image: url("/src/images/background.jpg");
+  background-color: #284166;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 50px; /* Space for header */
+  overflow: hidden;
+}
+
+/* About page banner text - allows expansion */
+.aboutMe-styling .banner-text {
+  max-height: none;
+  overflow-y: visible;
+  margin-top: 20px;
+}
+
+/* Scrollable content container for About page */
+.about-content-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-height: calc(100vh - 50px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .aboutMe-styling h1 {
+    font-size: 48px;
+  }
+}

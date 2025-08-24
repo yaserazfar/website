@@ -1,0 +1,45 @@
+/* Progress page specific styles */
+.ideas-styling i {
+  font-size: 3em;
+  color: whitesmoke;
+}
+
+.ideas-styling h1 {
+  font-family: 'Exo', sans-serif;
+  padding-top: 2%;
+  font-size: 66px;
+  font-weight: 900;
+  color: #32CD32;
+}
+
+.ideas-styling h5 {
+  font-family: 'Exo', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 75%;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: initial;
+  border-radius: 3px;
+  background-color: #32CD32;
+  color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ideas-styling h1 {
+    font-size: 48px;
+  }
+  
+  .ideas-styling h5 {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+}

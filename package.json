@@ -4,13 +4,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^3.4.1",
-    "react": "^16.8.6",
-    "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.8.6",
-    "react-mdl": "^1.11.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.1",
+    "@mui/material": "^7.3.1",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "bootstrap": "^5.3.7",
+    "react": "^19.1.1",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.1.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "0.9.5",
+    "react-scripts": "^5.0.1",
     "use-dencrypt-effect": "^1.0.2"
   },
   "devDependencies": {
@@ -24,5 +29,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

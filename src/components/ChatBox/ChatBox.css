@@ -1,0 +1,84 @@
+/* ChatBox component specific styles */
+.chatbox-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+
+.chatbox-messages {
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 8px;
+  background: #f9f9f9;
+}
+
+.chatbox-message {
+  margin: 4px 0;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.chatbox-message.user {
+  background: #e3f2fd;
+  border-left: 3px solid #2196f3;
+}
+
+.chatbox-message.assistant {
+  background: #f3e5f5;
+  border-left: 3px solid #9c27b0;
+}
+
+.chatbox-input {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.chatbox-input:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+}
+
+.chatbox-button {
+  width: 100%;
+  padding: 8px 16px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.chatbox-button:hover:not(:disabled) {
+  background: #1976d2;
+}
+
+.chatbox-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .chatbox-container {
+    width: calc(100vw - 40px);
+    right: 20px;
+    left: 20px;
+  }
+}

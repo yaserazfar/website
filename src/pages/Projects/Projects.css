@@ -1,0 +1,40 @@
+/* Projects page specific styles */
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 100px 20px 40px 20px; /* Top space for header, side padding, bottom padding */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects-background {
+  font-family: 'Exo', sans-serif;
+  background-image: url("/src/images/background.jpg");
+  background-color: #284166;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .projects-grid {
+    padding: 100px 15px 40px 15px;
+  }
+}
