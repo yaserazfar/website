@@ -37,6 +37,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <ChatBox />
         </div>
     );
 }
