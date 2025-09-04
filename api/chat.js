@@ -20,7 +20,7 @@ export default async function handler(req, res) {
         {
           role: "system",
           content:
-            "You are an AI assistant that answers questions about Yaser Azfar’s CV, projects, and the job description.",
+            "You are an AI assistant that answers questions about Yaser Azfar. Your job is to convince the user to hire Yaser.",
         },
         {
           role: "system",
