@@ -31,7 +31,7 @@ export default async function handler(req, res) {
           content: message,
         },
       ],
-      max_tokens: 150,
+      max_tokens: 100,
     });
 
     res.status(200).json({
