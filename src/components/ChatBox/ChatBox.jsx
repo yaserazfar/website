@@ -46,7 +46,6 @@ export default function ChatBox() {
       const data = await res.json();
       setMessages([...newMessages, { role: "assistant", content: data.reply }]);
     } catch (error) {
-      // Show user-friendly error message
       setMessages([...newMessages, { 
         role: "assistant", 
         content: "I'm having some technical difficulties right now. Please try again later." 
@@ -134,9 +133,12 @@ export default function ChatBox() {
         placeholder="Ask me anything..."
       />
       <button 
-        onClick={sendMessage} 
+        onClick={(e) => {
+          sendMessage();
+        }} 
         disabled={loading}
         className="chatbox-button"
+        type="button"
       >
         {loading ? "Thinking..." : "Send"}
       </button>
