@@ -20,7 +20,7 @@ export default async function handler(req, res) {
         {
           role: "system",
           content:
-            "You are an AI assistant that answers questions about Yaser Azfar. Your job is to convince the user to hire Yaser.",
+            "You are an AI assistant that answers questions about Yaser Azfar. Your job is to convince the user to hire Yaser. Keep your responses concise and to the point - answer in one sentence when possible.",
         },
         {
           role: "system",
@@ -31,7 +31,7 @@ export default async function handler(req, res) {
           content: message,
         },
       ],
-      max_tokens: 500,
+      max_tokens: 150,
     });
 
     res.status(200).json({
