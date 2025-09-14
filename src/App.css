@@ -99,25 +99,6 @@ html, body {
   }
 }
 
-/* About page specific styling for longer content */
-.aboutMe-styling .banner-text {
-  max-height: none; /* Remove height restriction for About page */
-  overflow-y: visible; /* Allow content to expand naturally */
-}
-
-/* Global utility classes */
-.text-center {
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
 /* Global link styles */
 a {
   color: inherit;

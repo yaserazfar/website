@@ -10,31 +10,14 @@
   margin-bottom: 20px;
 }
 
-.aboutMe-styling h6 {
-  font-family: 'Exo', sans-serif;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 0;
-}
-
 .aboutMe-styling p {
   text-align: justify;
   color: white;
 }
 
-.aboutMe-styling a {
-  color: #32CD32;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.aboutMe-styling a:hover {
-  text-decoration: underline;
-}
-
-.aboutMe-styling li {
+.aboutMe-styling ul {
   color: white;
-  margin: 8px 0;
+  text-align: left;
 }
 
 /* About page specific background - allows scrolling */
@@ -59,11 +42,8 @@
   overflow: hidden;
 }
 
-/* About page banner text - allows expansion */
 .aboutMe-styling .banner-text {
-  max-height: none;
-  overflow-y: visible;
-  margin-top: 20px;
+  align-items: flex-start;
 }
 
 /* Scrollable content container for About page */
